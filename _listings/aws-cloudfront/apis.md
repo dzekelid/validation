@@ -27,7 +27,7 @@ apis:
   tags: Validation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/validation/master/_listings/aws-cloudfront/action-getinvalidation-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/validation/master/_listings/aws-cloudfront/action-listinvalidations-get.md
 x-common:
 - type: x-analysis
   url: https://aws.amazon.com/cloudfront/reporting/
