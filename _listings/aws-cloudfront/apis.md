@@ -13,9 +13,9 @@ tags:
 - Content
 - CDN
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/validation/master/_listings/aws-cloudfront/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/aws-cloudfront/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS CloudFront API
@@ -27,7 +27,7 @@ apis:
   tags: Validation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/validation/master/_listings/aws-cloudfront/action-listinvalidations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/aws-cloudfront/action-createinvalidation-get.md
 x-common:
 - type: x-analysis
   url: https://aws.amazon.com/cloudfront/reporting/
