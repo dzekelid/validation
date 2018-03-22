@@ -19,9 +19,9 @@ tags:
 - Encryption
 - Certificates
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/validation/master/_listings/aws-certificate-manager/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/aws-certificate-manager/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Certificate Manager API
@@ -34,7 +34,7 @@ apis:
   tags: Validation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/validation/master/_listings/aws-certificate-manager/action-resendvalidationemail-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/aws-certificate-manager/action-resendvalidationemail-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/acm/index.html
