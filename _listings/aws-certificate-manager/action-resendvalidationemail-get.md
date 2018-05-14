@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Certificate Manager API
+  title: AWS Certificate Manager API Resend Validation Email
   version: 1.0.0
+  description: Resends the email that requests domain ownership validation.
 schemes:
 - http
 produces:
