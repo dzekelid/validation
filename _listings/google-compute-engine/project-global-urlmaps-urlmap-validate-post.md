@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Compute Engine
-  description: Creates and runs virtual machines on Google Cloud Platform.
+  title: Google Compute Engine API Run Static Validation
+  description: Runs static validation for the UrlMap. In particular, the tests of
+    the provided UrlMap will be run. Calling this method does NOT create the UrlMap.
   contact:
     name: Google
     url: https://google.com
