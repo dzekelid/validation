@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFront API
+  title: AWS CloudFront API Get Invalidation
   version: 1.0.0
+  description: Get the information about an invalidation.
 schemes:
 - http
 produces:
