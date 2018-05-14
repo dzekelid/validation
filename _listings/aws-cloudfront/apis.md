@@ -28,15 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/aws-cloudfront/action-listinvalidations-get.md
-- name: AWS CloudFront API Get Invalidation
-  description: Get the information about an invalidation.
+- name: AWS CloudFront API List Invalidations
+  description: Lists invalidation batches.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
   humanURL: https://aws.amazon.com/cloudfront/
   baseURL: http:://{host}//
   tags: Validation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/aws-cloudfront/action-getinvalidation-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/aws-cloudfront/action-listinvalidations-get.md
 x-common:
 - type: x-analysis
   url: https://aws.amazon.com/cloudfront/reporting/
