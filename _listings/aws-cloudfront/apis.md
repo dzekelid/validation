@@ -28,7 +28,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/aws-cloudfront/action-listinvalidations-get.md
+- name: AWS CloudFront API Create Invalidation
+  description: Create a new invalidation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
+  humanURL: https://aws.amazon.com/cloudfront/
+  baseURL: http:://{host}//
+  tags: Validation
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/aws-cloudfront/action-createinvalidation-get.md
 x-common:
+- type: x-analysis
+  url: https://aws.amazon.com/cloudfront/reporting/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AmazonCloudFront/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/cloudfront/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/cloudfront/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/cloudfront/pricing/
+- type: x-service-level-agreement
+  url: https://aws.amazon.com/cloudfront/sla/
+- type: x-webinars
+  url: https://aws.amazon.com/cloudfront/webinars/
+- type: x-website
+  url: https://aws.amazon.com/cloudfront/
+- type: x-whats-new
+  url: https://aws.amazon.com/cloudfront/whats-new/
 - type: x-analysis
   url: https://aws.amazon.com/cloudfront/reporting/
 - type: x-documentation
