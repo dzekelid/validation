@@ -27,7 +27,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/google-compute-engine/project-global-urlmaps-urlmap-validate-post.md
+- name: Google Compute Engine API Run Static Validation
+  description: Runs static validation for the UrlMap. In particular, the tests of
+    the provided UrlMap will be run. Calling this method does NOT create the UrlMap.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: http:://www.googleapis.com//compute/v1/projects
+  tags: Validation
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/validation/master/_listings/google-compute-engine/project-global-urlmaps-urlmap-validate-post.md
 x-common:
+- type: x-code
+  url: https://cloud.google.com/compute/docs/api/libraries
+- type: x-documentation
+  url: https://cloud.google.com/compute/docs/reference/latest/
+- type: x-guides
+  url: https://cloud.google.com/compute/docs/api/how-tos/how-tos
+- type: x-rate-limits
+  url: https://cloud.google.com/compute/docs/api-rate-limits
+- type: x-sla
+  url: https://cloud.google.com/compute/sla
+- type: x-website
+  url: https://cloud.google.com/compute/
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
 - type: x-documentation
