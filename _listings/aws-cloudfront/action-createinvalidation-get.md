@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFront API
+  title: AWS CloudFront API Create Invalidation
   version: 1.0.0
+  description: Create a new invalidation.
 schemes:
 - http
 produces:
